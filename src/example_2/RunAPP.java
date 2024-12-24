@@ -1,5 +1,8 @@
 package example_2;
 
+/*
+ * TODO -> App Example using Bridge design patterns
+ * */
 public class RunAPP {
     public static void main(String[] args) {
         Message email = new EmailMessage();

@@ -4,6 +4,9 @@ import example_6.model.DroppedItem;
 import example_6.model.MapPlace;
 import example_6.model.Unit;
 
+/*
+ * TODO -> App Example using Command design pattern
+ * */
 public class RunApp {
     public static void main(String[] args) {
         Unit selfUnit = new Unit("Kevin");
