@@ -2,10 +2,11 @@ package example_8;
 
 /*
  * TODO -> App Example using State design pattern
- * */
+*/
 public class RunApp {
     public static void main(String[] args) {
         Character character = new Character("Kevin");
+
         character.move();
         character.showState();
 

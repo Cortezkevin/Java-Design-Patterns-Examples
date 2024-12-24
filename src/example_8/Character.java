@@ -21,6 +21,10 @@ public class Character {
         this.characterState = characterState;
     }
 
+    public CharacterState getCharacterState() {
+        return characterState;
+    }
+
     public void move(){
         this.characterState.move(this);
     }
