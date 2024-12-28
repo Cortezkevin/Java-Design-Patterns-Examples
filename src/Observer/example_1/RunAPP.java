@@ -14,5 +14,12 @@ public class RunAPP {
         watchTower.subscribe(enemy3);
 
         watchTower.intruderDetected(player);
+
+        System.out.println("-----------------------------------------");
+
+        watchTower.unsubscribe(enemy1);
+        watchTower.unsubscribe(enemy2);
+
+        watchTower.intruderDetected(player);
     }
 }
