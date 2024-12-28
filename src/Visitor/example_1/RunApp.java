@@ -5,24 +5,24 @@ package Visitor.example_1;
  * */
 public class RunApp {
     public static void main(String[] args) {
-        Perro perro = new Perro();
-        Gato gato = new Gato();
+        Dog dog = new Dog();
+        Cat cat = new Cat();
 
         AnimalVisitor batheVisitor = new BatheAnimalVisitor();
-        perro.accept(batheVisitor);
-        gato.accept(batheVisitor);
+        dog.accept(batheVisitor);
+        cat.accept(batheVisitor);
 
         System.out.println("----------------------------------------");
 
         AnimalVisitor walkingVisitor = new WalkingAnimalVisitor();
 
-        perro.accept(walkingVisitor);
-        gato.accept(walkingVisitor);
+        dog.accept(walkingVisitor);
+        cat.accept(walkingVisitor);
 
         System.out.println("----------------------------------------");
 
         AnimalVisitor feedVisitor = new FeedAnimalVisitor();
 
-        gato.accept(feedVisitor);
+        cat.accept(feedVisitor);
     }
 }

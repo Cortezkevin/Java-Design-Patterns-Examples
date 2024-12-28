@@ -2,12 +2,12 @@ package Visitor.example_1;
 
 public class WalkingAnimalVisitor implements AnimalVisitor {
     @Override
-    public void visit(Perro perro) {
+    public void visit(Dog dog) {
         System.out.println("Paseando al perro");
     }
 
     @Override
-    public void visit(Gato gato) {
+    public void visit(Cat cat) {
         System.out.println("Paseando al gato");
     }
 }

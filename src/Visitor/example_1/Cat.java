@@ -1,6 +1,6 @@
 package Visitor.example_1;
 
-public class Perro implements Animal {
+public class Cat implements Animal {
     @Override
     public void accept(AnimalVisitor animalVisitor) {
         animalVisitor.visit(this);
