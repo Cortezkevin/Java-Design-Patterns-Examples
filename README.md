@@ -13,7 +13,7 @@ Este repositorio es tu kit de supervivencia (o destrucción) para enfrentarte al
 
 ## 🔬 Los 24 Patrones Clásicos de Diseño
 
-Aquí está la lista completa de los patrones para que impresiones a tus amigos desarrolladores (y los confundas también):
+Aquí está la lista completa de los patrones para que impresiones a tus amigos desarrolladores (y los confundas también jajaja):
 
 1. Singleton
 2. Factory Method
