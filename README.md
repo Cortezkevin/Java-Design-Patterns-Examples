@@ -38,7 +38,7 @@ Aquí está la lista completa de los patrones para que impresiones a tus amigos 
 21. Memento
 22. Interpreter
 23. Abstract Factory
-24. Dependency Injection
+24. Factory
 
 ---
 
